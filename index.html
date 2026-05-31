@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Andrei Constantinescu</title>
+  <meta name="description" content="Staff Data Scientist building ML infrastructure at scale, based in Paris.">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%23171717'/%3E%3Ctext x='16' y='23' font-family='system-ui,sans-serif' font-size='18' font-weight='600' fill='%23fafafa' text-anchor='middle'%3EA%3C/text%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['Inter', 'system-ui', 'sans-serif'],
+          },
+          maxWidth: {
+            content: '42rem',
+          },
+        },
+      },
+    }
+  </script>
+  <style>
+    @media (prefers-color-scheme: dark) {
+      :root {
+        color-scheme: dark;
+      }
+    }
+    a {
+      transition: color 0.15s ease;
+    }
+  </style>
+</head>
+<body class="font-sans antialiased bg-white text-neutral-900 dark:bg-neutral-950 dark:text-neutral-100">
+
+  <main class="mx-auto max-w-content px-6 py-16 sm:py-24">
+
+    <header class="mb-16 sm:mb-20">
+      <h1 class="text-2xl sm:text-3xl font-semibold tracking-tight">Andrei Constantinescu</h1>
+      <p class="mt-2 text-sm text-neutral-500 dark:text-neutral-400">Paris, France</p>
+      <p class="mt-6 text-base sm:text-lg leading-relaxed text-neutral-600 dark:text-neutral-300">
+        Staff Data Scientist building ML infrastructure at scale. Currently exploring what to build next.
+      </p>
+    </header>
+
+    <section class="mb-16 sm:mb-20">
+      <p class="text-base leading-relaxed text-neutral-700 dark:text-neutral-300">
+        Staff Data Scientist at Shift Technology, where I've spent 7+ years designing and operating back-end systems and ML infrastructure powering fraud detection and document processing for 25+ insurance clients. I've built platforms used by 200+ engineers and shipped LLM-based and ML services handling 50M+ documents and 1B+ claims per year.
+      </p>
+    </section>
+
+    <section class="mb-16 sm:mb-20">
+      <h2 class="text-sm font-medium uppercase tracking-wider text-neutral-500 dark:text-neutral-400 mb-8">Selected work</h2>
+      <ul class="space-y-10">
+        <li>
+          <h3 class="text-base font-medium">Document Processing Pipeline</h3>
+          <p class="mt-2 text-sm leading-relaxed text-neutral-600 dark:text-neutral-400">
+            Event-driven Azure architecture unifying real-time and batch processing — Python microservices on AKS, Service Bus, Cosmos DB. Powers fraud detection and straight-through processing across 25+ clients at 50M+ documents/year.
+          </p>
+        </li>
+        <li>
+          <h3 class="text-base font-medium">ML Platform &amp; Microservice Framework</h3>
+          <p class="mt-2 text-sm leading-relaxed text-neutral-600 dark:text-neutral-400">
+            Built the Python/Flask framework that became Shift's company standard for training, deploying, and monitoring ML models. Adopted by 200+ engineers. Replaced brittle VM deployments with AKS-based CI/CD.
+          </p>
+        </li>
+        <li>
+          <h3 class="text-base font-medium">Document Fraud Product</h3>
+          <p class="mt-2 text-sm leading-relaxed text-neutral-600 dark:text-neutral-400">
+            Led end-to-end development of Shift's document fraud detection — from batch pipeline and evaluation framework to production deployment. Up to 20% uplift over baselines using LayoutLM and a custom OCR/extraction stack.
+          </p>
+        </li>
+      </ul>
+    </section>
+
+    <section class="mb-16 sm:mb-20">
+      <h2 class="text-sm font-medium uppercase tracking-wider text-neutral-500 dark:text-neutral-400 mb-6">Outside work</h2>
+      <ul class="space-y-2 text-sm text-neutral-600 dark:text-neutral-400 list-disc list-inside">
+        <li>JLPT N1 — highest level of Japanese certification, self-taught</li>
+        <li>Top 1.01% in LeetCode competitions</li>
+        <li>MSc Data Science (CentraleSupélec) &amp; MSc Management (ESSEC)</li>
+        <li>Languages: French (native), English, Romanian, Japanese</li>
+      </ul>
+    </section>
+
+    <footer>
+      <nav class="flex flex-wrap gap-x-6 gap-y-2 text-sm text-neutral-500 dark:text-neutral-400">
+        <a href="mailto:andrei.cst93@gmail.com" class="hover:text-neutral-900 dark:hover:text-neutral-100">Email</a>
+        <a href="https://github.com/andreiconst" class="hover:text-neutral-900 dark:hover:text-neutral-100" rel="noopener noreferrer">GitHub</a>
+        <a href="https://linkedin.com/in/andrei-contantinescu" class="hover:text-neutral-900 dark:hover:text-neutral-100" rel="noopener noreferrer">LinkedIn</a>
+      </nav>
+    </footer>
+
+  </main>
+
+</body>
+</html>
